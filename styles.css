@@ -1,0 +1,43 @@
+* {
+  font-family:'Courier New', Courier, monospace;
+  background-color: hsl(240, 15%, 10%);
+}
+
+.page-title {
+  display: flex;
+  flex-direction: column-reverse;
+
+  background-image: url('imgs/bar_exterior.png');
+  background-size: cover;
+  min-height: 553px;
+
+  border: 1px hsl(260, 100%, 70%);
+  border-style: solid;
+}
+
+.page-title h2 {
+  align-self: center;
+
+  font-size: x-large;
+  color: hsl(240, 15%, 10%);
+
+  background-color: hsl(260, 100%, 70%);
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-bar li {
+  list-style: none;
+  display: flex;
+
+
+  margin: 0;
+  padding: 0;
+  background-color: hsl(260, 100%, 70%);
+
+  justify-content: space-around;
+}
